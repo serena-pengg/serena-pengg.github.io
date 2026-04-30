@@ -1,0 +1,84 @@
+/* 整体容器反转 */
+#content-inner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* 调整主内容宽度 */
+#page,
+#post {
+  width: 75%;
+}
+
+/* 调整侧边栏宽度 */
+#aside-content {
+  margin-right: 20px;
+  margin-left: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  #content-inner {
+    flex-direction: column !important;
+  }
+}
+
+
+/* #page {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0) 0%,
+      #ffffff 30%,
+      #ffffff 70%,
+      rgba(255,255,255,0) 100%
+    ),
+    url('/images/about_top.jpg') top no-repeat,
+    url('/images/footer.jpg') bottom no-repeat;
+
+  background-size:
+    100% 100%,
+    100% auto,
+    100% auto;
+} */
+
+/* about page */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-header {
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.signature {
+  color: #666;
+  margin-top: 10px;
+}
+
+.about-content {
+  text-align: left;
+  line-height: 1.8;
+}
+
+.contact-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  line-height: 2;
+}
+
+.contact-box i {
+  margin-right: 8px;
+  color: #542b1f; /* 用你的主色 */
+}
