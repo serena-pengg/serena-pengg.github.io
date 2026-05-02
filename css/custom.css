@@ -41,8 +41,8 @@
     100% auto;
 } */
 
-/* about page */
 
+/* about page */
 .about-container {
   max-width: 800px;
   margin: 0 auto;
@@ -82,3 +82,17 @@
   margin-right: 8px;
   color: #542b1f; /* 用你的主色 */
 }
+
+/* Waline Comments */
+
+/* 美化 Waline 输入框标签 (NickName, E-Mail 等) */
+
+
+/* 修改评论区上方的水平分隔线 (Butterfly 主题通用分隔线) */
+hr.custom-hr {
+  border: 2px dashed #652d1d; /* 修改线条颜色 */
+  --hr-before-color: #6d2d1c; /* 修改线条上剪刀图标的颜色 */
+}
+
+
+
